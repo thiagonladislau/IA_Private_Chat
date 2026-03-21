@@ -1,9 +1,4 @@
-# Ignorar ambiente virtual e pastas do sistema
-venv/
-__pycache__/
+data/
+*.xlsx
 .env
-
-# Ignorar dados sensíveis (Importante para compliance da empresa!)
-data/*.xlsx
-data/*.csv
-vector_db/
+venv/
